@@ -10,14 +10,14 @@
     종류2) Vertical partitioning
     
     Q1: Sharding의 경우 OLTP (Warehouse)가 아닌  OLAP (Production DB:mysql, oracle, postgressql) 중심  
-    * OLTP: 오엘티피 Online Transaction Processing, 주로 일상적인 작업, 디수 사람들이 사용
-    * OLAP: 오랩  Online Analytical Processing, 의사결정시 많이 사용, 테이타분석가/데이타 사이언티스트$$$$$
+    * OLTP: 오엘티피 Online Transaction Processing, 주로 일상적인 작업, 디수 사람들이 사용, 일반 DB
+    * OLAP: 오랩  Online Analytical Processing, 의사결정시 많이 사용, 테이타분석가/데이타 사이언티스트, DATA WAREHOUSE
    
    
   ![Imgur Image](https://i.imgur.com/W992ycJ.png)
   ![Imgur Image](https://i.imgur.com/a1b58H0.png)
     
-   데이타 저장 방식
+   OLTP, OLAP 데이타 저장 방식
    ![Imgur Image](https://i.imgur.com/fSqmNLm.png)
    
    

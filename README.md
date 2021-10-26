@@ -36,5 +36,8 @@
 #### 인터뷰질문3 (G*)
     다양한 데이터 소스들에서 데이터를 불러 인프라를 빌딩해야한다. 어떻게 접근하겠는가? 그리고 어떻게 빌딩하겠는가?
 
-#### 인터뷰질문4 
+#### 인터뷰질문4 PIPELINE ETL VS ELT
+    ETL: Traditional
+    ELT: For Big DATA Project
+     ![Imgur Image](https://i.imgur.com/SmMmuwj.png)
     

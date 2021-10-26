@@ -17,6 +17,10 @@
   ![Imgur Image](https://i.imgur.com/W992ycJ.png)
   ![Imgur Image](https://i.imgur.com/a1b58H0.png)
     
+   * 데이타 저장 방식
+   ![Imgur Image](https://i.imgur.com/fSqmNLm.png)
+   
+   
     Q2: 샤딩이 제대로 분산되지 않고 쏠릴 때 어떻게 처리할 것인가? (** 추가조언: SQL 중요 특히 Window함수 연습 권장)
     
     ** 분산처리의 개념, 컨셉 인터뷰 질문 다수, 
@@ -33,5 +37,4 @@
     다양한 데이터 소스들에서 데이터를 불러 인프라를 빌딩해야한다. 어떻게 접근하겠는가? 그리고 어떻게 빌딩하겠는가?
 
 #### 인터뷰질문4 
-    데이타 저장 방식
-    ![Imgur Image](https://i.imgur.com/fSqmNLm.png)
+    

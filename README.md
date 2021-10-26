@@ -12,7 +12,8 @@
     Q1: Sharding의 경우 OLTP (Warehouse)가 아닌  OLAP (Production DB:mysql, oracle, postgressql) 중심  
     * OLTP: 오엘티피 Online Transaction Processing, 주로 일상적인 작업, 디수 사람들이 사용
     * OLAP: 오랩  Online Analytical Processing, 의사결정시 많이 사용, 테이타분석가/데이타 사이언티스트$$$$$
-    ![Screen Shot 2021-10-23 at 4 53 33 PM](https://user-images.githubusercontent.com/22403644/138821820-e083d272-681c-469e-8034-a4e69163dfe9.png)
+   
+   <img src='https://imgur.com/W992ycJ' />
     
     Q2: 샤딩이 제대로 분산되지 않고 쏠릴 때 어떻게 처리할 것인가? (** 추가조언: SQL 중요 특히 Window함수 연습 권장)
     
@@ -30,3 +31,4 @@
     다양한 데이터 소스들에서 데이터를 불러 인프라를 빌딩해야한다. 어떻게 접근하겠는가? 그리고 어떻게 빌딩하겠는가?
 
 
+https://imgur.com/uarlOZC

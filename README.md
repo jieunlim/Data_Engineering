@@ -39,5 +39,5 @@
 #### 인터뷰질문4 PIPELINE ETL VS ELT
     ETL: Traditional
     ELT: For Big DATA Project
-     ![Imgur Image](https://i.imgur.com/SmMmuwj.png)
+    ![Imgur Image](https://i.imgur.com/SmMmuwj.png)
     

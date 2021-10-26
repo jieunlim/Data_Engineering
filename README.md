@@ -17,7 +17,7 @@
   ![Imgur Image](https://i.imgur.com/W992ycJ.png)
   ![Imgur Image](https://i.imgur.com/a1b58H0.png)
     
-   * 데이타 저장 방식
+   데이타 저장 방식
    ![Imgur Image](https://i.imgur.com/fSqmNLm.png)
    
    

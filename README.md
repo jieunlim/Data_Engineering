@@ -10,8 +10,9 @@
     종류2) Vertical partitioning
     
     Q1: Sharding의 경우 OLTP (Warehouse)가 아닌  OLAP (Production DB:mysql, oracle, postgressql) 중심  
-    * OLTP: Online Transaction Processing
-    * OLAP: Online Analytical Processing
+    * OLTP: 오엘티피 Online Transaction Processing, 주로 일상적인 작업, 디수 사람들이 사용
+    * OLAP: 오랩  Online Analytical Processing, 의사결정시 많이 사용, 테이타분석가/데이타 사이언티스트$$$$$
+    ![Screen Shot 2021-10-23 at 4 53 33 PM](https://user-images.githubusercontent.com/22403644/138821820-e083d272-681c-469e-8034-a4e69163dfe9.png)
     
     Q2: 샤딩이 제대로 분산되지 않고 쏠릴 때 어떻게 처리할 것인가? (** 추가조언: SQL 중요 특히 Window함수 연습 권장)
     
@@ -19,11 +20,13 @@
 
 
 #### 인터뷰질문2
-    INSERT INTO를 잘 안씀, 정말 record가 작을때
-    현업에서 한번에 몇백개씩 넣을때, INSERT INTO 호출, SQL만드는데 시간이 오래걸려서 BLUK INSERT (Redshift, snowflake, spark, hadoop)에서
-    INSERT되는 Record- file(csc, json으로 만들어서)- cloud storage(s3) : redshift copy comment (5주차 예정)
-    몇백만개 추가 20-30초 가능한 퍼포먼스 나옴
+    INSERT INTO를 잘 안씀, 정말 record가 작을때 현업에서 한번에 몇백개씩 넣을때만 INSERT INTO 호출 
+    
+    SQL만드는데 시간이 오래걸려서 BLUK INSERT 사용
+    (Redshift, snowflake, spark, hadoop)에서 INSERT되는 Record- file(csc, json으로 만들어서) -cloud storage(s3)에 저장 : redshift copy comment (5주차 예정)
+    => 몇백만개 추가 20-30초 가능한 퍼포먼스 나옴
 
 #### 인터뷰질문3 (G*)
     다양한 데이터 소스들에서 데이터를 불러 인프라를 빌딩해야한다. 어떻게 접근하겠는가? 그리고 어떻게 빌딩하겠는가?
+
 

@@ -43,5 +43,5 @@
     ELT: For Big DATA Project
 ![Imgur Image](https://i.imgur.com/SmMmuwj.png)
     
-** 우리가 사용한 ETL:
+#### 우리가 사용한 ETL:
 ![Imgur Image](https://i.imgur.com/OpWRrXx.png)

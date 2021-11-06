@@ -21,6 +21,8 @@
    ![Imgur Image](https://i.imgur.com/fSqmNLm.png)
    ![Imgur Image](https://i.imgur.com/jQlmw9O.png)
    
+   ![Imgur Image](https://imgur.com/Tnh3cRDz)
+   
     Q2: 샤딩이 제대로 분산되지 않고 쏠릴 때 어떻게 처리할 것인가? (** 추가조언: SQL 중요 특히 Window함수 연습 권장)
     
     ** 분산처리의 개념, 컨셉 인터뷰 질문 다수, 

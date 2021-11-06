@@ -13,7 +13,7 @@
     * OLTP: 오엘티피 Online Transaction Processing, 주로 일상적인 작업, 데이터 자체의 처리, 따라서 디수 사람들이 사용, 일반 DB
     * OLAP: 오랩  Online Analytical Processing, 의사결정시 많이 사용, 테이타분석가/데이타 사이언티스트, DATA WAREHOUSE
    
-   
+  ![Imgur Image](https://i.imgur.com/Tnh3cRD.png)
   ![Imgur Image](https://i.imgur.com/W992ycJ.png)
   ![Imgur Image](https://i.imgur.com/a1b58H0.png)
     
@@ -21,7 +21,7 @@
    ![Imgur Image](https://i.imgur.com/fSqmNLm.png)
    ![Imgur Image](https://i.imgur.com/jQlmw9O.png)
    
-   ![Imgur Image](https://imgur.com/Tnh3cRDz)
+
    
     Q2: 샤딩이 제대로 분산되지 않고 쏠릴 때 어떻게 처리할 것인가? (** 추가조언: SQL 중요 특히 Window함수 연습 권장)
     
